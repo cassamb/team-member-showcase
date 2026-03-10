@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: oklch(59.6% 0.145 163.225);        /* emerald-600 */
+  --color-primary-light: oklch(76.5% 0.177 163.223);  /* emerald-400 */
+  --color-primary-dark: oklch(43.2% 0.095 166.913);   /* emerald-800 */
+  --color-bg-dark: oklch(21% 0.034 264.665);          /* gray-900 */
+  --color-text-light: oklch(96.7% 0.003 264.542);     /* gray-100 */
+}
+
+body {
+  background-color: var(--color-bg-dark);
+  color: var(--color-text-light);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3.125rem 1rem;
+  line-height: 1.6;
+}
+
+header h1::after {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 2px;
+}

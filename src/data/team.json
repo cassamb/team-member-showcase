@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Sarah Park",
+        "role": "Founder & CEO",
+        "bio": "Visionary leader with 15+ years of experience in tech innovation and business strategy.", 
+        "picture": "https://randomuser.me/api/portraits/women/2.jpg"   
+    },
+    {
+        "id": 2,
+        "name": "Iris Lee",
+        "role": "Lead Designer",
+        "bio": "Award-winning designer specializing in UI/UX with a focus on creating intuitive user experiences.",
+        "picture": "https://randomuser.me/api/portraits/women/12.jpg" 
+    },
+    {
+        "id": 3,
+        "name": "Leslie Chen",
+        "role": "Lead Developer",
+        "bio": "Full-stack developer with expertise in scalable architecture and emerging technologies.", 
+        "picture": "https://randomuser.me/api/portraits/women/27.jpg" 
+    },
+    {
+        "id": 4,
+        "name": "Emma Patel",
+        "role": "Marketing Specialist",
+        "bio": "Digital marketing expert with a knack for creating compelling content and growth strategies.", 
+        "picture": "https://randomuser.me/api/portraits/women/15.jpg"        
+    },
+    {
+        "id": 5,
+        "name": "Michael Torres",
+        "role": "Product Manager",
+        "bio": "Strategic thinker focused on bringing innovative products to market that solve real problems.", 
+        "picture": "https://randomuser.me/api/portraits/men/7.jpg"        
+    },
+    {
+        "id": 6,
+        "name": "James Peterson",
+        "role": "Customer Success",
+        "bio": "Dedicated to ensuring our clients achieve their goals through excellent support and guidance.", 
+        "picture": "https://randomuser.me/api/portraits/men/3.jpg"       
+    }
+]

@@ -27,23 +27,15 @@ This is the team member showcase design for a fictional tech company based on a 
 The original implementation uses hardcoded values for the team members. In this implementation, the data is stored in the `team.json` file as an array of objects to mimic real world use of an API. Thus, cards and data within them can now be added and removed simply by modifying the JSON file.
 
 ```json
-{
-    [
+[
+    {
         "id": number,
         "name": string,
-        "description": string,
-        "price": number,
-        "icon": string,
-        "popular": boolean,
-        "features": [
-            {
-                "id": number,
-                "description": string,
-                "available": boolean
-            }
-        ]
-    ]
-}
+        "role": string,
+        "bio": number,
+        "picture": string
+    }
+]
 ```
 
 ## Additional Information

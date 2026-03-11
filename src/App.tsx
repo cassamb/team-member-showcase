@@ -1,4 +1,5 @@
 import Header from "./components/Header";
+import Cards from "./components/Cards";
 
 function App() {
 
@@ -6,6 +7,7 @@ function App() {
     <>
       <main className="container max-w-5xl">
         <Header/>
+        <Cards/>
       </main>
     
     </>
